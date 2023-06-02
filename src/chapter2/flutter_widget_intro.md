@@ -575,7 +575,7 @@ import 'package:flutter/cupertino.dart';
 
 class CupertinoTestRoute extends StatelessWidget  {
   @override
-  widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         middle: Text("Cupertino Demo"),
